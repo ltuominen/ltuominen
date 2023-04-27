@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    padding: 1rem;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+aside {
+    background: #f4f4f4;
+    padding: 1rem;
+    width: 25%;
+    float: left;
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem;
+}
+
+section {
+    float: right;
+    width: 75%;
+    padding: 1rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+}
